@@ -11,7 +11,7 @@ const TabBarIcon = ({ name, focused }) => (
   />
 );
 
-TabBarIcon.PropTypes = {
+TabBarIcon.propTypes = {
   name: PropTypes.string.isRequired,
   focused: PropTypes.bool.isRequired
 };
