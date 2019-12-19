@@ -23,7 +23,7 @@ const Content = styled.View`
   flex: 1;
   flex-direction: row;
   align-items: center;
-  padding-horizontal:30px
+  padding-horizontal: 30px;
   justify-content: space-between;
 `;
 
@@ -50,8 +50,8 @@ const VoteContainer = styled.View`
 
 const BtnContainer = styled.TouchableOpacity`
   background-color: #e74c3c;
-  padding: 5px;
-  border-radius: 2.5px;
+  border-radius: 5px;
+  padding: 8px;
 `;
 
 const BtnText = styled.Text`
@@ -85,7 +85,7 @@ const MovieSlide = ({
           </Overview>
         ) : null}
         <BtnContainer>
-          <BtnText>More detail</BtnText>
+          <BtnText>View details</BtnText>
         </BtnContainer>
       </Column>
     </Content>
